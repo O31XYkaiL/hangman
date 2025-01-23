@@ -1,0 +1,13 @@
+<Configuration status="WARN">
+    <Appenders>
+        <Console name="STDOUT_PLAIN" target="SYSTEM_OUT">
+            <PatternLayout pattern="%msg%n"/>
+        </Console>
+    </Appenders>
+
+    <Loggers>
+        <Root level="debug">
+            <AppenderRef ref="STDOUT_PLAIN"/>
+        </Root>
+    </Loggers>
+</Configuration>
